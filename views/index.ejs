@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='../public/stylesheets/style.css' />
+  </head>
+  <body>
+    <p> <%= title %> </p>
+    <form action="/theme" method="post">
+      <label>Enter elections name: </label>
+      <input name="name" type="text"/>
+      <input type="submit" value="add">
+    </form>
+  </body>
+</html>
